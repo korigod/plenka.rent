@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin: 0.8rem 0.2rem;
+    }
+    h1 {
+      flex: 4;
+      margin: 0.5rem 1rem;
+      min-width: 11em;
+      font-size: 24pt;
+      font-weight: normal;
+      text-align: center;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: 18pt;
+      text-align: center;
+    }
+    address {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 0.8rem;
+      font-style: normal;
+      text-align: center;
+    }
+    .contactsItem {
+      white-space: nowrap;
+    }
+    nav {
+      background-color: rgb(89, 66, 194);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0.5rem 0 0 0;
+    }
+    nav > a {
+      color: white;
+      font-size: 110%;
+      margin: 0.6em 0.7em;
+    }
+    nav > a:hover {
+      color:rgb(255, 246, 126);
+    }
+    main {
+      margin: 0;
+    }
+    section {
+      margin: 1.5rem 0.5rem 2.5rem;
+    }
+    .sectionContent {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2%;
+    }
+    img.camera {
+      max-width: 12rem;
+      margin: 0 4rem;
+      height: auto;
+    }
+    img#FujiGX680Photo {
+      max-width: 20rem;
+      margin: 0 0;
+    }
+    img#SinarP2Photo {
+      max-width: 20rem;
+      margin: 0 0;
+    }
+    img#SekonicPhoto {
+      max-width: 7rem;
+      margin: 0 6.5rem;
+    }
+    table {
+      flex: 0 1 42rem;
+    }
+    table tr:nth-child(even) {
+      background-color: #f4f4f4;
+    }
+    table td:nth-child(n+2) {
+      text-align: right;
+    }
+    table tr:nth-child(n+2):hover {
+      background-color: rgb(255, 255, 203);
+    }
+    table th, table td {
+      padding: 0.2em;
+    }
+    p {
+      text-align: left;
+      max-width: 41.6rem;
+      margin: auto;
+      padding: 0.2rem;
+    }
+    footer {
+      margin: 1em;
+      text-align: center;
+    }
+  </style>
+
+  <head>
+    <meta charset="utf-8">
+    <title>plenka.rent: прокат плёночных фотоаппаратов в Москве</title>
+    <meta name="description" content="Аренда пленочной фототехники — Hasselblad, Bronica, Fujifilm
+    и других фотоаппаратов среднего и большого форматов, объективов и аксессуаров к ним">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+
+    <script type="text/javascript">
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      ym(93883499, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/93883499" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Аренда пленочных фотокамер среднего и большого форматов
+      </h1>
+      <address>
+        <div class="contactsItem">Москва, Тверская ул., д. 17</div>
+        <div class="contactsItem">+7 915 285-64-41 (с 14 до 20)</div>
+        <div class="contactsItem">Telegram: <a href="https://t.me/plenkarent" target="_blank">@plenkarent</a></div>
+        <div class="contactsItem"><a href="mailto:info@plenka.rent">info@plenka.rent</a></div>
+      </address>
+    </header>
+
+    <nav>
+      <a href="#FujiGX680">Fuji GX680</a>
+      <a href="#BronicaSQ">Bronica SQ</a>
+      <a href="#Hasselblad500">Hasselblad 500</a>
+      <a href="#LargeFormat">Большой формат</a>
+      <a href="#Conditions">Условия аренды</a>
+      <a href="#Order">Оформить заказ</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2 id="FujiGX680">Fujifilm GX680</h2>
+        <div class="sectionContent">
+          <img src="assets/Fuji_GX680III.jpg" class="camera" id="FujiGX680Photo" width="1400" height="1400">
+          <table>
+            <tr><th>Наименование</th><th>Первый день</th><th>След. дни</th><th>Залог</th></tr>
+            <tr><td>Камера Fuji GX680 I с шахтой и задником 6х8</td><td>1500</td><td>500</td><td>45000</td></tr>
+            <tr><td>Камера Fuji GX680 III с шахтой и задником 6х8</td><td>2370</td><td>790</td><td>75000</td></tr>
+            <tr><td>Объектив Fujinon-GX 65 mm f/5.6</td><td>810</td><td>270</td><td>30000</td></tr>
+            <tr><td>Объектив Fujinon-GX 80 mm f/5.6</td><td>810</td><td>270</td><td>30000</td></tr>
+            <tr><td>Объектив Fujinon-GX 100 mm f/4</td><td>690</td><td>230</td><td>25000</td></tr>
+            <tr><td>Объектив Fujinon-GX 125 mm <b>f/3.2</b></td><td>1440</td><td>480</td><td>50000</td></tr>
+            <tr><td>Объектив Fujinon-GX 135 mm f/5.6</td><td>600</td><td>200</td><td>22000</td></tr>
+            <tr><td>Объектив Fujinon-GX 150 mm f/5.6</td><td>510</td><td>170</td><td>18000</td></tr>
+            <tr><td>Объектив Fujinon-GX 180 mm <b>f/3.2</b></td><td>1440</td><td>480</td><td>50000</td></tr>
+            <tr><td>Объектив Fujinon-GX 190 mm f/8 Soft Focus</td><td>660</td><td>220</td><td>24000</td></tr>
+            <tr><td>Объектив Fujinon-GX 210 mm f/5.6</td><td>600</td><td>200</td><td>22000</td></tr>
+            <tr><td>Объектив Fujinon-GX 250 mm f/5.6</td><td>690</td><td>230</td><td>25000</td></tr>
+            <tr><td>Объектив Fujinon-GX 300 mm f/6.3</td><td>960</td><td>320</td><td>35000</td></tr>
+            <tr><td>Тросик спусковой для Fuji GX680</td><td>270</td><td>90</td><td>10000</td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="BronicaSQ">Bronica SQ</h2>
+        <div class="sectionContent">
+          <img src="assets/Bronica_SQ-A.jpg" class="camera" width="1331" height="1200">
+          <table>
+            <tr><th>Наименование</th><th>Первый день</th><th>След. дни</th><th>Залог</th></tr>
+            <tr><td>Камера Bronica SQ&#8209;A с шахтой и задником</td><td>1890</td><td>630</td><td>45000</td></tr>
+            <tr><td>Камера Bronica SQ&#8209;B с шахтой и задником</td><td>1890</td><td>630</td><td>45000</td></tr>
+            <tr><td>Объектив 40 mm f/4 Zenzanon&#8209;PS</td><td>1350</td><td>450</td><td>45000</td></tr>
+            <tr><td>Объектив 50 mm f/3.5 Zenzanon&#8209;S</td><td>810</td><td>270</td><td>27000</td></tr>
+            <tr><td>Объектив 65 mm f/4 Zenzanon&#8209;PS</td><td>1080</td><td>360</td><td>36000</td></tr>
+            <tr><td>Объектив 80 mm f/2.8 Zenzanon&#8209;PS/B</td><td>660</td><td>220</td><td>22000</td></tr>
+            <tr><td>Объектив 105 mm f/3.5 Zenzanon&#8209;S</td><td>450</td><td>150</td><td>15000</td></tr>
+            <tr><td>Объектив 110 mm f/4.5 Zenzanon&#8209;PS Macro 1:1</td><td>1800</td><td>600</td><td>60000</td></tr>
+            <tr><td>Объектив 150 mm f/3.5 Zenzanon&#8209;S</td><td>450</td><td>150</td><td>15000</td></tr>
+            <tr><td>Объектив 150 mm f/4 Zenzanon&#8209;PS</td><td>750</td><td>250</td><td>25000</td></tr>
+            <tr><td>Объектив 180 mm f/4.5 Zenzanon&#8209;PS</td><td>1650</td><td>550</td><td>55000</td></tr>
+            <tr><td>Объектив 250 mm f/5.6 Zenzanon&#8209;S</td><td>450</td><td>150</td><td>15000</td></tr>
+            <tr><td>Объектив 250 mm f/5.6 Zenzanon&#8209;PS</td><td>750</td><td>250</td><td>25000</td></tr>
+            <tr><td>Макро-кольцо S18</td><td>300</td><td>100</td><td>10000</td></tr>
+            <tr><td>Телеконвертер 1,4x</td><td>300</td><td>100</td><td>10000</td></tr>
+            <tr><td>Телеконвертер 2x</td><td>300</td><td>100</td><td>10000</td></tr>
+            <tr><td>Призма</td><td>750</td><td>250</td><td>25000</td></tr>
+            <tr><td>Доп. задник 120</td><td>300</td><td>100</td><td>10000</td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="Hasselblad500">Hasselblad 500 C/M</h2>
+        <div class="sectionContent">
+          <img src="assets/Hasselblad_500cm.jpg" class="camera" width="1600" height="1549">
+          <table>
+            <tr><th>Наименование</th><th>Первый день</th><th>След. дни</th><th>Залог</th></tr>
+            <tr><td>Камера Hasselblad 500 C/M с шахтой и задником</td><td>2940</td><td>980</td><td>75000</td></tr>
+            <tr><td>Объектив 60 mm Distagon CFi</td><td>2760</td><td>920</td><td>115000</td></tr>
+            <tr><td>Объектив 100 mm f/3.5 Planar</td><td>2430</td><td>810</td><td>90000</td></tr>
+            <tr><td>Объектив 150 mm f/4 Sonnar T*</td><td>690</td><td>230</td><td>23000</td></tr>
+            <tr><td>Объектив 250 mm f/5.6 Opton (Sonnar) T*</td><td>750</td><td>250</td><td>25000</td></tr>
+            <tr><td>Доп. задник 120</td><td>360</td><td>120</td><td>12000</td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="LargeFormat">Фототехника большого формата</h2>
+        <div class="sectionContent">
+          <img src="assets/Sinar_P2.jpg" class="camera" id="SinarP2Photo" width="1057" height="800">
+          <table>
+            <tr><th>Наименование</th><th>Первый день</th><th>След. дни</th><th>Залог</th></tr>
+            <tr><td>Камера Chamonix 45F&#8209;2 4x5"</td><td>5880</td><td>1960</td><td>140000</td></tr>
+            <tr><td>Камера Calumet/Tachihara 4x5"</td><td>1620</td><td>540</td><td>45000</td></tr>
+            <tr><td>Камера Sinar P2 8x10"</td><td>5460</td><td>1820</td><td>130000</td></tr>
+            <tr><td>Камера деревянная 8x10"</td><td>1620</td><td>540</td><td>45000</td></tr>
+            <tr><td>Объектив 47 mm f/5.6 Schneider Super&#8209;Angulon XL</td><td>1800</td><td>600</td><td>60000</td></tr>
+            <tr><td>Центрофильтр Schneider IIIc для 47 mm SAXL</td><td>1050</td><td>350</td><td>35000</td></tr>
+            <tr><td>Объектив 75 mm f/5.6 Fujinon&#8209;SWD </td><td>1050</td><td>350</td><td>35000</td></tr>
+            <tr><td>Объектив 90 mm f/8 Rodenstock Super&#8209;Angulon</td><td>900</td><td>300</td><td>30000</td></tr>
+            <tr><td>Объектив 135 mm f/5.6 Rodenstock Apo&#8209;Sironar&#8209;N</td><td>1050</td><td>350</td><td>35000</td></tr>
+            <tr><td>Объектив 150 mm f/5.6 Schneider Xenar</td><td>810</td><td>270</td><td>27000</td></tr>
+            <tr><td>Объектив 180 mm f/5.6 Fujinon&#8209;W</td><td>750</td><td>250</td><td>25000</td></tr>
+            <tr><td>Объектив 180 mm f/5.6 CM&nbsp;Fujinon&#8209;W</td><td>1140</td><td>380</td><td>38000</td></tr>
+            <tr><td>Объектив 240 mm f/9 Fujinon&#8209;A</td><td>1800</td><td>600</td><td>60000</td></tr>
+            <tr><td>Объектив 360 mm f/8 Nikkor&#8209;T ED</td><td>1800</td><td>600</td><td>60000</td></tr>
+            <tr><td>Объектив 360 mm f/6.8 Sironar&#8209;N на доске Sinar</td><td>2100</td><td>700</td><td>70000</td></tr>
+            <tr><td>Кассета 4х5"</td><td>105</td><td>35</td><td>2500</td></tr>
+            <tr><td>Кассета 8х10"</td><td>720</td><td>240</td><td>16000</td></tr>
+            <tr><td>Кассета 18х24 см (для камер 8х10")</td><td>720</td><td>240</td><td>16000</td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="Misc">Прочее</h2>
+        <div class="sectionContent">
+          <img src="assets/Sekonic_758.jpg" class="camera" id="SekonicPhoto" width="475" height="800">
+          <table>
+            <tr><th>Наименование</th><th>Первый день</th><th>След. дни</th><th>Залог</th></tr>
+            <tr><td>Спотметр Sekonic L&#8209;758</td><td>1200</td><td>400</td><td>40000</td></tr>
+            <tr><td>Спотметр Minolta Spotmeter F</td><td>660</td><td>220</td><td>18000</td></tr>
+            <tr><td>Штатив карбоновый Gitzo GT4552GTS</td><td>2340</td><td>780</td><td>65000</td></tr>
+            <tr><td>Штатив карбоновый Benro C&#8209;158n6</td><td>750</td><td>250</td><td>25000</td></tr>
+            <tr><td>Штатив алюминиевый студийный Manfrotto 058B</td><td>1350</td><td>450</td><td>50000</td></tr>
+            <tr><td>Штатив алюминиевый Induro A414</td><td>420</td><td>140</td><td>18000</td></tr>
+            <tr><td>Голова штативная шаровая Sirui K&#8209;40x</td><td>540</td><td>180</td><td>12000</td></tr>
+            <tr><td>Голова штативная шаровая Novoflex MagicBall 50</td><td>600</td><td>200</td><td>20000</td></tr>
+            <tr><td>Голова штативная 3D Manfrotto 029</td><td>360</td><td>120</td><td>10000</td></tr>
+            <tr><td>Голова штативная 3D Manfrotto 804RC2</td><td>180</td><td>60</td><td>6000</td></tr>
+            <tr><td>Тросик спусковой механический</td><td>75</td><td>25</td><td>2500</td></tr>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="Conditions">Условия аренды</h2>
+        <p>
+          Прокат тарифицируется посуточно, стоимость первых суток указана в столбце "Первый день", каждых последующих — в столбце "След. дни". Залог может быть внесен деньгами, а также техникой или иным имуществом.
+          <br><br>
+          Цены указаны в рублях. Возможна оплата наличными, переводом или по счету. При аренде более, чем на 10 дней, предоставляются скидки.
+          <br><br>
+          Объективы для камер большого формата предоставляются на досках Linhof (96х98 мм), если не указано иное. При необходимости возможно переставить объектив на вашу доску. Возможна продажа пленки 4х5" от одного листа, доступны Tmax 400, Ektar, Velvia 50, Delta 100, Foma 100, цены уточняйте.
+          <br><br>
+          С отзывами о нашей работе можно ознакомиться <a href="https://www.avito.ru/user/2d1cc9297b7943bf71dba5b5e51a9a57/profile">на авито</a> и <a href="https://www.ozon.ru/seller/plenka-460807/products/?miniapp=seller_460807">в нашем магазине на Ozon</a>.
+          <br><br>
+        </p>
+      </section>
+
+      <section>
+        <h2 id="Order">Оформление заказа</h2>
+        <p>
+          Для оформления заказа пишите в Telegram <b><a href="https://t.me/plenkarent" target="_blank">@plenkarent</a></b> или на почту <a href="mailto:info@plenka.rent">info@plenka.rent</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>&copy; 2023</footer>
+  </body>
+</html>
